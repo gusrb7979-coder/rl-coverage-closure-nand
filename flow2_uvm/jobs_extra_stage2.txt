@@ -1,0 +1,23 @@
+variant=buggy mode=policy seed=0 lfsr_seed=0x7000 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s0_policy.json
+variant=golden mode=policy seed=0 lfsr_seed=0x7000 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s0_policy.json
+variant=buggy mode=policy seed=1 lfsr_seed=0x7001 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s1_policy.json
+variant=golden mode=policy seed=1 lfsr_seed=0x7001 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s1_policy.json
+variant=buggy mode=policy seed=2 lfsr_seed=0x7002 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s2_policy.json
+variant=golden mode=policy seed=2 lfsr_seed=0x7002 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s2_policy.json
+variant=buggy mode=policy seed=3 lfsr_seed=0x7003 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s3_policy.json
+variant=golden mode=policy seed=3 lfsr_seed=0x7003 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s3_policy.json
+variant=buggy mode=policy seed=4 lfsr_seed=0x7004 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s4_policy.json
+variant=golden mode=policy seed=4 lfsr_seed=0x7004 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s4_policy.json
+variant=buggy mode=policy seed=5 lfsr_seed=0x7005 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s5_policy.json
+variant=golden mode=policy seed=5 lfsr_seed=0x7005 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s5_policy.json
+variant=buggy mode=policy seed=6 lfsr_seed=0x7006 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s6_policy.json
+variant=golden mode=policy seed=6 lfsr_seed=0x7006 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s6_policy.json
+variant=buggy mode=policy seed=7 lfsr_seed=0x7007 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s7_policy.json
+variant=golden mode=policy seed=7 lfsr_seed=0x7007 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s7_policy.json
+variant=buggy mode=policy seed=8 lfsr_seed=0x7008 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s8_policy.json
+variant=golden mode=policy seed=8 lfsr_seed=0x7008 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s8_policy.json
+variant=buggy mode=policy seed=9 lfsr_seed=0x7009 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s9_policy.json
+variant=golden mode=policy seed=9 lfsr_seed=0x7009 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s9_policy.json
+variant=buggy mode=policy seed=0 lfsr_seed=0x9000 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s0_t0_policy.json rtl=rtl/variants/nand_recovery_buggy_t0.v tables=1,5,12,7,9,3,6,10,8,15,2,4,13,0,11,14:9,3,2,12,0,4,10,8,6,11,7,14,15,13,1,5 suffix=_t0
+variant=buggy mode=policy seed=1 lfsr_seed=0x9001 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s1_t1_policy.json rtl=rtl/variants/nand_recovery_buggy_t1.v tables=6,0,10,7,2,13,15,1,14,4,11,12,8,3,5,9:9,5,13,10,11,14,8,6,0,2,1,3,7,4,15,12 suffix=_t1
+variant=buggy mode=policy seed=2 lfsr_seed=0x9002 trials=1000 budget=100000000 policy=/mnt/c/Users/admin/projects/rl_coverage_poc_nand_ver1.0/out/uvm_rlp_buggy_s2_t2_policy.json rtl=rtl/variants/nand_recovery_buggy_t2.v tables=14,10,8,15,1,5,7,6,4,9,11,12,13,0,2,3:7,13,12,15,2,5,4,3,10,1,11,0,6,8,14,9 suffix=_t2

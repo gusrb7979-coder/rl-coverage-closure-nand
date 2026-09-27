@@ -1,0 +1,784 @@
+{
+ "budget": 3000000,
+ "seeds": 10,
+ "table": [
+  {
+   "dut": "golden",
+   "method": "CRV",
+   "runs": 10,
+   "pass": 10,
+   "fail": 0,
+   "spec_median": 27.0,
+   "cov73_median": 36.986301369863014,
+   "cov73_full": 0,
+   "violation": 0,
+   "full_at_median": null,
+   "tx_per_s_median": 5469.946573300621
+  },
+  {
+   "dut": "golden",
+   "method": "퍼저",
+   "runs": 10,
+   "pass": 10,
+   "fail": 0,
+   "spec_median": 31.5,
+   "cov73_median": 43.150684931506845,
+   "cov73_full": 0,
+   "violation": 0,
+   "full_at_median": null,
+   "tx_per_s_median": 5072.9106823063275
+  },
+  {
+   "dut": "golden",
+   "method": "BFS",
+   "runs": 10,
+   "pass": 10,
+   "fail": 0,
+   "spec_median": 30.5,
+   "cov73_median": 41.78082191780822,
+   "cov73_full": 0,
+   "violation": 0,
+   "full_at_median": null,
+   "tx_per_s_median": 4569.316258228184
+  },
+  {
+   "dut": "golden",
+   "method": "RL",
+   "runs": 10,
+   "pass": 10,
+   "fail": 0,
+   "spec_median": 71.0,
+   "cov73_median": 97.26027397260275,
+   "cov73_full": 0,
+   "violation": 0,
+   "full_at_median": null,
+   "tx_per_s_median": 4048.9552860315366
+  },
+  {
+   "dut": "buggy",
+   "method": "CRV",
+   "runs": 10,
+   "pass": 10,
+   "fail": 0,
+   "spec_median": 27.0,
+   "cov73_median": 36.986301369863014,
+   "cov73_full": 0,
+   "violation": 0,
+   "full_at_median": null,
+   "tx_per_s_median": 5342.509715180677
+  },
+  {
+   "dut": "buggy",
+   "method": "퍼저",
+   "runs": 10,
+   "pass": 10,
+   "fail": 0,
+   "spec_median": 31.5,
+   "cov73_median": 43.150684931506845,
+   "cov73_full": 0,
+   "violation": 0,
+   "full_at_median": null,
+   "tx_per_s_median": 5052.544171106914
+  },
+  {
+   "dut": "buggy",
+   "method": "BFS",
+   "runs": 10,
+   "pass": 10,
+   "fail": 0,
+   "spec_median": 30.5,
+   "cov73_median": 41.78082191780822,
+   "cov73_full": 0,
+   "violation": 0,
+   "full_at_median": null,
+   "tx_per_s_median": 4554.917436596208
+  },
+  {
+   "dut": "buggy",
+   "method": "RL",
+   "runs": 10,
+   "pass": 0,
+   "fail": 10,
+   "spec_median": 71.0,
+   "cov73_median": 100.0,
+   "cov73_full": 10,
+   "violation": 10,
+   "full_at_median": 870637.0,
+   "tx_per_s_median": 4290.1472506281225
+  }
+ ],
+ "curve_buggy": [
+  {
+   "m": 0.1,
+   "method": "CRV",
+   "cov": 0.2324
+  },
+  {
+   "m": 0.2,
+   "method": "CRV",
+   "cov": 0.3028
+  },
+  {
+   "m": 0.3,
+   "method": "CRV",
+   "cov": 0.331
+  },
+  {
+   "m": 0.4,
+   "method": "CRV",
+   "cov": 0.338
+  },
+  {
+   "m": 0.5,
+   "method": "CRV",
+   "cov": 0.338
+  },
+  {
+   "m": 0.6,
+   "method": "CRV",
+   "cov": 0.338
+  },
+  {
+   "m": 0.7,
+   "method": "CRV",
+   "cov": 0.3592
+  },
+  {
+   "m": 0.8,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.9,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.0,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.1,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.2,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.3,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.4,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.5,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.6,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.7,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.8,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.9,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.0,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.1,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.2,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.3,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.4,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.5,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.6,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.7,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.8,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 2.9,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 3.0,
+   "method": "CRV",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.1,
+   "method": "퍼저",
+   "cov": 0.2535
+  },
+  {
+   "m": 0.2,
+   "method": "퍼저",
+   "cov": 0.3028
+  },
+  {
+   "m": 0.3,
+   "method": "퍼저",
+   "cov": 0.3239
+  },
+  {
+   "m": 0.4,
+   "method": "퍼저",
+   "cov": 0.338
+  },
+  {
+   "m": 0.5,
+   "method": "퍼저",
+   "cov": 0.3521
+  },
+  {
+   "m": 0.6,
+   "method": "퍼저",
+   "cov": 0.3592
+  },
+  {
+   "m": 0.7,
+   "method": "퍼저",
+   "cov": 0.3732
+  },
+  {
+   "m": 0.8,
+   "method": "퍼저",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.9,
+   "method": "퍼저",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.0,
+   "method": "퍼저",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.1,
+   "method": "퍼저",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.2,
+   "method": "퍼저",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.3,
+   "method": "퍼저",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.4,
+   "method": "퍼저",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.5,
+   "method": "퍼저",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.6,
+   "method": "퍼저",
+   "cov": 0.3873
+  },
+  {
+   "m": 1.7,
+   "method": "퍼저",
+   "cov": 0.3944
+  },
+  {
+   "m": 1.8,
+   "method": "퍼저",
+   "cov": 0.3944
+  },
+  {
+   "m": 1.9,
+   "method": "퍼저",
+   "cov": 0.3944
+  },
+  {
+   "m": 2.0,
+   "method": "퍼저",
+   "cov": 0.3944
+  },
+  {
+   "m": 2.1,
+   "method": "퍼저",
+   "cov": 0.3944
+  },
+  {
+   "m": 2.2,
+   "method": "퍼저",
+   "cov": 0.4014
+  },
+  {
+   "m": 2.3,
+   "method": "퍼저",
+   "cov": 0.4014
+  },
+  {
+   "m": 2.4,
+   "method": "퍼저",
+   "cov": 0.4014
+  },
+  {
+   "m": 2.5,
+   "method": "퍼저",
+   "cov": 0.4085
+  },
+  {
+   "m": 2.6,
+   "method": "퍼저",
+   "cov": 0.4085
+  },
+  {
+   "m": 2.7,
+   "method": "퍼저",
+   "cov": 0.4085
+  },
+  {
+   "m": 2.8,
+   "method": "퍼저",
+   "cov": 0.4085
+  },
+  {
+   "m": 2.9,
+   "method": "퍼저",
+   "cov": 0.4085
+  },
+  {
+   "m": 3.0,
+   "method": "퍼저",
+   "cov": 0.4437
+  },
+  {
+   "m": 0.1,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.2,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.3,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.4,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.5,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.6,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.7,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.8,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 0.9,
+   "method": "BFS",
+   "cov": 0.3803
+  },
+  {
+   "m": 1.0,
+   "method": "BFS",
+   "cov": 0.4014
+  },
+  {
+   "m": 1.1,
+   "method": "BFS",
+   "cov": 0.4014
+  },
+  {
+   "m": 1.2,
+   "method": "BFS",
+   "cov": 0.4014
+  },
+  {
+   "m": 1.3,
+   "method": "BFS",
+   "cov": 0.4014
+  },
+  {
+   "m": 1.4,
+   "method": "BFS",
+   "cov": 0.4014
+  },
+  {
+   "m": 1.5,
+   "method": "BFS",
+   "cov": 0.4014
+  },
+  {
+   "m": 1.6,
+   "method": "BFS",
+   "cov": 0.4014
+  },
+  {
+   "m": 1.7,
+   "method": "BFS",
+   "cov": 0.4014
+  },
+  {
+   "m": 1.8,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 1.9,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.0,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.1,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.2,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.3,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.4,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.5,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.6,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.7,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.8,
+   "method": "BFS",
+   "cov": 0.4225
+  },
+  {
+   "m": 2.9,
+   "method": "BFS",
+   "cov": 0.4296
+  },
+  {
+   "m": 3.0,
+   "method": "BFS",
+   "cov": 0.4296
+  },
+  {
+   "m": 0.1,
+   "method": "RL",
+   "cov": 0.6479
+  },
+  {
+   "m": 0.2,
+   "method": "RL",
+   "cov": 0.6901
+  },
+  {
+   "m": 0.3,
+   "method": "RL",
+   "cov": 0.6901
+  },
+  {
+   "m": 0.4,
+   "method": "RL",
+   "cov": 0.7183
+  },
+  {
+   "m": 0.5,
+   "method": "RL",
+   "cov": 0.7887
+  },
+  {
+   "m": 0.6,
+   "method": "RL",
+   "cov": 0.8662
+  },
+  {
+   "m": 0.7,
+   "method": "RL",
+   "cov": 0.9085
+  },
+  {
+   "m": 0.8,
+   "method": "RL",
+   "cov": 0.9507
+  },
+  {
+   "m": 0.9,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.0,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.1,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.2,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.3,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.4,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.5,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.6,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.7,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.8,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 1.9,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.0,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.1,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.2,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.3,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.4,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.5,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.6,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.7,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.8,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 2.9,
+   "method": "RL",
+   "cov": 1.0
+  },
+  {
+   "m": 3.0,
+   "method": "RL",
+   "cov": 1.0
+  }
+ ],
+ "depth_buggy": {
+  "CRV": {
+   "per_seed": [
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "median": 3.0,
+   "max": 3,
+   "depth8_at_median": null
+  },
+  "퍼저": {
+   "per_seed": [
+    3,
+    5,
+    3,
+    4,
+    4,
+    3,
+    4,
+    7,
+    3,
+    4
+   ],
+   "median": 4.0,
+   "max": 7,
+   "depth8_at_median": null
+  },
+  "BFS": {
+   "per_seed": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    4,
+    3,
+    4,
+    4
+   ],
+   "median": 4.0,
+   "max": 4,
+   "depth8_at_median": null
+  },
+  "RL": {
+   "per_seed": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "median": 8.0,
+   "max": 8,
+   "depth8_at_median": 870637.0
+  }
+ },
+ "missing": [],
+ "criteria_met": true
+}

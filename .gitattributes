@@ -1,0 +1,2 @@
+# shell scripts run inside WSL: keep LF line endings
+*.sh text eol=lf

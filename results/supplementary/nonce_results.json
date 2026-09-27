@@ -1,0 +1,112 @@
+[
+  {
+    "k_nonce": 0,
+    "fuzzer": {
+      "median": 15122.0,
+      "found": "5/5"
+    },
+    "bfs": {
+      "median": 1944.0,
+      "found": "5/5"
+    },
+    "rl": {
+      "median": 51776.0,
+      "found": "5/5"
+    },
+    "fuzzer_replay": 1.0,
+    "rl_policy_replay": 1.0,
+    "rl_cycles_to_99pct_policy": {
+      "median": 57501.0,
+      "found": "5/5"
+    },
+    "rl_seconds": 0.3138697000686079
+  },
+  {
+    "k_nonce": 1,
+    "fuzzer": {
+      "median": 192271.0,
+      "found": "5/5"
+    },
+    "bfs": {
+      "median": null,
+      "found": "0/5"
+    },
+    "rl": {
+      "median": 88032.0,
+      "found": "5/5"
+    },
+    "fuzzer_replay": 0.06760000000000001,
+    "rl_policy_replay": 1.0,
+    "rl_cycles_to_99pct_policy": {
+      "median": 94302.0,
+      "found": "5/5"
+    },
+    "rl_seconds": 0.7206950000254437
+  },
+  {
+    "k_nonce": 2,
+    "fuzzer": {
+      "median": 171475.0,
+      "found": "5/5"
+    },
+    "bfs": {
+      "median": null,
+      "found": "0/5"
+    },
+    "rl": {
+      "median": 90712.0,
+      "found": "5/5"
+    },
+    "fuzzer_replay": 0.0042,
+    "rl_policy_replay": 1.0,
+    "rl_cycles_to_99pct_policy": {
+      "median": 765103.0,
+      "found": "5/5"
+    },
+    "rl_seconds": 0.5986448000185192
+  },
+  {
+    "k_nonce": 3,
+    "fuzzer": {
+      "median": null,
+      "found": "3/5"
+    },
+    "bfs": {
+      "median": null,
+      "found": "0/5"
+    },
+    "rl": {
+      "median": 154174.0,
+      "found": "5/5"
+    },
+    "fuzzer_replay": 0.0006666666666666666,
+    "rl_policy_replay": 1.0,
+    "rl_cycles_to_99pct_policy": {
+      "median": 819818.0,
+      "found": "5/5"
+    },
+    "rl_seconds": 0.9906383000779897
+  },
+  {
+    "k_nonce": 4,
+    "fuzzer": {
+      "median": null,
+      "found": "1/5"
+    },
+    "bfs": {
+      "median": null,
+      "found": "0/5"
+    },
+    "rl": {
+      "median": 264878.0,
+      "found": "5/5"
+    },
+    "fuzzer_replay": 0.0,
+    "rl_policy_replay": 0.8,
+    "rl_cycles_to_99pct_policy": {
+      "median": 1088700.0,
+      "found": "5/5"
+    },
+    "rl_seconds": 1.7076335999881849
+  }
+]

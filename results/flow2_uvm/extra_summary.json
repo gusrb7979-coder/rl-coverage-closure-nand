@@ -1,0 +1,232 @@
+{
+ "policy": [
+  {
+   "seed": 0,
+   "bug_at": 860689,
+   "polish_steps": 50007,
+   "replay_buggy": 0.995,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 1,
+   "bug_at": 732286,
+   "polish_steps": 50005,
+   "replay_buggy": 0.989,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 2,
+   "bug_at": 963323,
+   "polish_steps": 650213,
+   "replay_buggy": 0.995,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 3,
+   "bug_at": 989362,
+   "polish_steps": 750208,
+   "replay_buggy": 0.987,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 4,
+   "bug_at": 967162,
+   "polish_steps": 550166,
+   "replay_buggy": 0.987,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 5,
+   "bug_at": 1036625,
+   "polish_steps": 50006,
+   "replay_buggy": 0.986,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 6,
+   "bug_at": 865937,
+   "polish_steps": 500165,
+   "replay_buggy": 0.994,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 7,
+   "bug_at": 875337,
+   "polish_steps": 50027,
+   "replay_buggy": 0.984,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 8,
+   "bug_at": 804243,
+   "polish_steps": 100055,
+   "replay_buggy": 1.0,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  },
+  {
+   "seed": 9,
+   "bug_at": 846284,
+   "polish_steps": 850305,
+   "replay_buggy": 0.998,
+   "verdict_buggy": "FAIL",
+   "replay_golden": 0.0,
+   "verdict_golden": "PASS"
+  }
+ ],
+ "oracle": [
+  {
+   "seed": 0,
+   "full_at": 3978,
+   "verdict": "FAIL"
+  },
+  {
+   "seed": 1,
+   "full_at": 4139,
+   "verdict": "FAIL"
+  },
+  {
+   "seed": 2,
+   "full_at": 5476,
+   "verdict": "FAIL"
+  },
+  {
+   "seed": 3,
+   "full_at": 2805,
+   "verdict": "FAIL"
+  },
+  {
+   "seed": 4,
+   "full_at": 5594,
+   "verdict": "FAIL"
+  }
+ ],
+ "golden_oracle": [
+  {
+   "seed": 0,
+   "steps": 200000,
+   "deep_commits": 8750,
+   "double_writes": 0,
+   "verdict": "PASS"
+  },
+  {
+   "seed": 1,
+   "steps": 200000,
+   "deep_commits": 8773,
+   "double_writes": 0,
+   "verdict": "PASS"
+  },
+  {
+   "seed": 2,
+   "steps": 200000,
+   "deep_commits": 8753,
+   "double_writes": 0,
+   "verdict": "PASS"
+  }
+ ],
+ "tables": [
+  {
+   "variant": "t0",
+   "coverage": 100.0,
+   "full_at": 1193152,
+   "polish_steps": 50012,
+   "replay": 0.994,
+   "tables": "1,5,12,7,9,3,6,10,8,15,2,4,13,0,11,14:9,3,2,12,0,4,10,8,6,11,7,14,15,13,1,5"
+  },
+  {
+   "variant": "t1",
+   "coverage": 100.0,
+   "full_at": 821299,
+   "polish_steps": 50012,
+   "replay": 0.993,
+   "tables": "6,0,10,7,2,13,15,1,14,4,11,12,8,3,5,9:9,5,13,10,11,14,8,6,0,2,1,3,7,4,15,12"
+  },
+  {
+   "variant": "t2",
+   "coverage": 100.0,
+   "full_at": 1028879,
+   "polish_steps": 600174,
+   "replay": 0.985,
+   "tables": "14,10,8,15,1,5,7,6,4,9,11,12,13,0,2,3:7,13,12,15,2,5,4,3,10,1,11,0,6,8,14,9"
+  }
+ ],
+ "budget": {
+  "steps": 30000000,
+  "verdict": "PASS",
+  "bug_at": null,
+  "spec_covered": 54,
+  "coverage": 73.97260273972603,
+  "max_depth": 7,
+  "depth_at": {
+   "1": 156,
+   "2": 2943,
+   "3": 4907,
+   "4": 232898,
+   "5": 232899,
+   "6": 1064859,
+   "7": 1064860
+  },
+  "entries": {
+   "5": {
+    "to_3M": 16,
+    "to_30M": 213,
+    "first": 232899
+   },
+   "6": {
+    "to_3M": 1,
+    "to_30M": 9,
+    "first": 1064859
+   },
+   "7": {
+    "to_3M": 1,
+    "to_30M": 4,
+    "first": 1064860
+   },
+   "8": {
+    "to_3M": 0,
+    "to_30M": 0,
+    "first": null
+   }
+  }
+ },
+ "hints_ecc_fail2": {
+  "counts": [
+   2677,
+   2720,
+   2769,
+   2740,
+   2759,
+   2631,
+   2730,
+   2774,
+   2721,
+   2623,
+   2585,
+   2639,
+   2597,
+   2796,
+   2716,
+   2594
+  ],
+  "total": 43071,
+  "min_max_ratio": 0.925
+ },
+ "missing": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "NAND read-recovery controller (virtual IP, transaction level) - specification of the intended (golden) behavior",
+  "transaction": {"opcode_bits": 2, "param_bits": 4,
+                  "opcodes": {"STATUS": 0, "READ": 1, "RETRY": 2, "REMAP": 3}},
+  "states": ["IDLE", "ECC_FAIL", "RECOVERED", "PGM_FAIL", "RELOCATED",
+             "ECC_FAIL2", "RECOVERED2", "MAP_PENDING"],
+  "constants": {"WEAK_PAGE": 10, "SPARE_BLK": 3, "VERIFY_PAGE": 5, "COMMIT": 15},
+  "retry_table": [7, 12, 3, 14, 0, 9, 5, 11, 2, 15, 8, 1, 13, 6, 10, 4],
+  "spare_table": [9, 2, 14, 5, 11, 0, 7, 12, 4, 15, 1, 8, 3, 13, 6, 10],
+  "outputs": {
+    "state_o": "current FSM state (4 bits, one of the 8 states)",
+    "hint_o": "4-bit failure information reported with a NAND failure (read: error-count bucket, program: failing plane)",
+    "err_o": "1-cycle pulse after an unexpected command aborts a recovery in progress (states 1-7); IDLE traffic never raises it",
+    "map_commit_o": "1-cycle pulse: the logical-to-physical map was updated",
+    "map_wr_cnt_o": "number of map entries written by that commit"
+  },
+  "map_protocol": {
+    "reserve": "a relocation target is first reserved in one of two slots (filled in order)",
+    "cancel": "a failed relocation program cancels its own reservation",
+    "rearm": "after a verify-read failure is recovered, the rewrite target overwrites the most recent reservation",
+    "commit": "a commit writes every valid reservation to the map, then clears all reservations",
+    "rule": "every commit must write exactly one map entry (map_wr_cnt_o == 1)"
+  },
+  "error_model": {
+    "lfsr": "16-bit Fibonacci, taps 16/14/13/11, advances 7 steps per accepted transaction (disjoint bits per operation, 7 coprime with period 65535), not cleared by host reset",
+    "fail": "lfsr[0] after advance (p = 0.5, error-injection mode)",
+    "hint": "lfsr[4:1] after advance"
+  },
+  "coverage": {
+    "states": "the 8 states above, plus one spec-violation event: a commit that writes more than one map entry (index 8, observed by the monitor; it is also the scoreboard rule)",
+    "arcs": [[0,0],[0,1],[1,2],[1,0],[2,3],[2,0],[3,4],[3,0],[4,5],[4,0],[5,6],[5,0],[6,7],[6,0],[7,8],[7,0]],
+    "arcs_note": "[7,8] = the MAP_PENDING commit that violated the rule; [7,0] = abort or a correct commit",
+    "recovery": "ECC_FAIL x hint(16) -> RECOVERED, PGM_FAIL x hint(16) -> RELOCATED, ECC_FAIL2 x hint(16) -> RECOVERED2",
+    "totals": "73 bins = 71 spec-coverage bins + 2 spec-violation bins (state 8, arc [7,8])"
+  }
+}

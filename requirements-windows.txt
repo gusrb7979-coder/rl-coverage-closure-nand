@@ -1,0 +1,4 @@
+# Flow 1 (Python experiments) + synthesis check on Windows (versions used for results/)
+numpy==2.5.3
+matplotlib==3.11.2
+yowasp-yosys==0.69.0.0.post1233    # Yosys as a pip package (WebAssembly); no system install needed

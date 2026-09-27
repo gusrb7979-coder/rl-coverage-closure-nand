@@ -1,0 +1,28 @@
+
+7. Printing statistics.
+
+=== nand_recovery ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      274 wires
+      434 wire bits
+       30 public wires
+      174 public wire bits
+       13 ports
+       40 port bits
+      299 cells
+       21   $_ANDNOT_
+       81   $_AND_
+       26   $_DFFE_PN0P_
+        8   $_DFFE_PN1P_
+        4   $_DFF_PN0_
+       14   $_MUX_
+       49   $_NAND_
+       18   $_NOR_
+        6   $_NOT_
+       15   $_ORNOT_
+       24   $_OR_
+       25   $_XNOR_
+        8   $_XOR_
+
